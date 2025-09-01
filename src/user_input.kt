@@ -1,5 +1,6 @@
 fun main() {
-    println("Ingresa un numero: ")
-    val numero: Int = readln().toInt()
-    println("El número que ingresaste, multiplicado por dos es: ${numero * 2}")
+    val AÑO: Int = 2025
+    println("Ingresa el año de tu nacimiento: ")
+    val añoNacimiento: Int = readln().toInt()
+    println("Tu edad es: ${AÑO - añoNacimiento}")
 }
