@@ -1,8 +1,9 @@
 
 
 fun main(){
-    val lista = listOf(1,2,3,4,5) //Lista inmutable
+    val lista = listOf<Number>(1,2,3,4,5) //Lista inmutable
     println(lista)
+    println(lista[3])
 
     val listaMutable = mutableListOf("a", "b", "c", "d")
     listaMutable.add("e")
